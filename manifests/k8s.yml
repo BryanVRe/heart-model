@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: {model_name}-container
-      
-          image: docker.io/{docker_user}/{model_name}:{github.sha}
+
+        image: docker.io/{docker_user}/{model_name}:{github.sha}
         ports:
         - containerPort: 80
 ---
